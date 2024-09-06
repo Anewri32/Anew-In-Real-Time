@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "anew-in-real-time",
 	"version": "${version}",
-	"name": "Anew-In-Real-Time",
+	"name": "Anew In Real Time",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"

@@ -26,12 +26,12 @@ public class AnewInRealTime implements ModInitializer {
 	}
 
 	private void onServerStarted(MinecraftServer server) {
-		LOGGER.info("Server started. Setting gamerule doDaylightCycle to false.");
+		// LOGGER.info("Server started. Setting gamerule doDaylightCycle to false.");
 		server.getCommandManager().executeWithPrefix(server.getCommandSource(), "gamerule doDaylightCycle false");
 	}
 
 	private void onServerStopped(MinecraftServer server) {
-		LOGGER.info("Server stopped. Restoring gamerule doDaylightCycle to true.");
+		// LOGGER.info("Server stopped. Restoring gamerule doDaylightCycle to true.");
 		server.getCommandManager().executeWithPrefix(server.getCommandSource(), "gamerule doDaylightCycle true");
 	}
 
